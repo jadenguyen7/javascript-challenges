@@ -21,7 +21,6 @@ function panicFunc(input) {
 
   if (input.includes(" ")) {
     sentence = sentence.split(" ").join(" 😱 ");
-    // console.log(newSentence)
   }
 
   console.log(sentence);
